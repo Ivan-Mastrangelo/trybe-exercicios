@@ -29,3 +29,7 @@ h3 {
     background-color: rgb(4, 219, 219);
     font-family: cursive;
 }
+
+.ímpar {
+    font-style: italic;
+}
