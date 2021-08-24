@@ -35,5 +35,30 @@ li em {
     background-color: pink;
 }
 
+li a:hover {
+    font-weight: bold;
+}
+
+li.l a:hover {
+    color: orange;
+}
+
+li.v a:hover {
+    color: green;
+}
+
+li.p a:hover {
+    color: black;
+}
+
+li.a a:hover {
+    color: yellow;
+}
+
+
+
+
+
+
 
 
