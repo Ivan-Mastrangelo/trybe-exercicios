@@ -29,8 +29,8 @@ let ast = '*';
 let line = '';
 let position = num
 
-for (let i = 0; i <= num; i += 1) {
-  for (let i = 0; i < num; i += 1) {
+for (let i = 0; i < num; i += 1) {
+  for (let i = 0; i <= num; i += 1) {
     if (i < position) {
       line = line + ' ';
     } else {
@@ -41,3 +41,29 @@ for (let i = 0; i <= num; i += 1) {
   line = '';
   position -= 1;
 }
+
+//4- Depois, faça uma pirâmide com n asteriscos de base:
+
+let num = 5;
+let ast = '*';
+let line = '';
+let middle = (num + 1) / 2;
+let leftspace = middle;
+let rightspace = middle;
+
+
+for (let i = 0; i <= middle; i += 1) {
+  for (let i = 0; i <= num; i += 1) {
+    if (i > leftspace && i < rightspace) {
+      line = line + ast;
+    } else {
+      line = line + ' ';
+    }
+  }
+  console.log (line);
+  line = '';
+  rightspace += 1;
+  leftspace -= 1;
+}
+
+
