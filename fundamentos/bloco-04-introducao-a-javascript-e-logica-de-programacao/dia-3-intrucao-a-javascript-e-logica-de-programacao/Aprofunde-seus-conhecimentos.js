@@ -22,4 +22,22 @@ for (let i = 0; i < num; i += 1) {
   console.log(line);
 };
 
+//3. Agora inverta o lado do triângulo. Por exemplo:
 
+let num = 5;
+let ast = '*';
+let line = '';
+let position = num
+
+for (let i = 0; i <= num; i += 1) {
+  for (let i = 0; i < num; i += 1) {
+    if (i < position) {
+      line = line + ' ';
+    } else {
+      line = line + ast;
+    }
+  }
+  console.log (line);
+  line = '';
+  position -= 1;
+}
