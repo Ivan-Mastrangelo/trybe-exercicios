@@ -1,16 +1,13 @@
-const paragraph = document.getElementById("paragraph"); paragraph.style.color = "red";
+document.querySelector('#page-title').innerHTML = 'Stars Wars';
 
-document.getElementById('page-title').innerText = 'Star Wars'
+document.querySelector('#second-paragraph').innerText = 'Filmes são uma excelente opção';
 
-document.getElementById('second-paragraph').innerText = 'fazendo testes e testes para aprander a programar'
-      
-document.getElementById('subtitle').innerText = 'mais um teste'
+document.querySelector('#subtitle').innerText = 'Os filmes mais assistidos no mundo';
+document.querySelector('.textos').style.color = 'blue';
 
-let alteracaoDoP1 = document.getElementsByClassName('textos')[0];
-alteracaoDoP1.style.fontSize = '25px';
+document.querySelector('h4').style.color = 'red';
 
-let corSubtitulo = document.getElementsByTagName('h4')[0];
-corSubtitulo.style.color = 'green';
+
 
 
 
