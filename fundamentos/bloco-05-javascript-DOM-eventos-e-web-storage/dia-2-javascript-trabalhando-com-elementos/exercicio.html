@@ -90,6 +90,7 @@
       document.getElementsByClassName('right-content')[0].appendChild(list);
 
       let itemList = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      
       for (let i = 0; i < itemList.length; i +=1){
         let listItem = itemList[i];
 
@@ -113,8 +114,18 @@
     }
 
     document.querySelector('.main-content').removeChild(document.querySelector('.left-content'));
-
+    
     //outra forma - document.getElementsByClassName('main-content')[0].firstElementChild.nextElementSibling.remove();
+
+    rightSection.style.marginRight = 'auto';
+
+    list.lastChild.remove();
+    list.lastChild.remove();
+
+  
+
+
+
 
   
 
