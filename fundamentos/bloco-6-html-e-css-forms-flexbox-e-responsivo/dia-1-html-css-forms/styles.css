@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(234, 237, 240);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  width: 100%;
+}
+
+.cabeçalho,
+.default {
+  text-align: center;
+  background-color: rgb(246, 247, 248);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 10px;
+  width: 40%;
+  margin: 40px, 0;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+
+.cabeçalho h1 {
+  font-size: 32px;
+}
+
+.default {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boxes {
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 10px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+#input-estado {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.radio-box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#curriculo {
+  color: rgb(148, 149, 151);
+}
+
+.date-boxes {
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+#input-estado {
+  background-color: white;
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+#botão {
+  width: 10%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  
+}
