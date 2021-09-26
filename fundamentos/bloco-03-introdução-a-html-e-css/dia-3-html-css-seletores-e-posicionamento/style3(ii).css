@@ -1,0 +1,35 @@
+div:hover {
+    border: solid;
+    border-width: thick;
+    border-color: black;
+        }
+
+#primaria {
+    color: red;
+}
+
+#secundaria {
+    color: green;
+}
+
+#complementar {
+    color: orange;
+    font-size: 20px;
+}
+
+#escura {
+    color: purple;
+}
+
+#clara {
+    color: wheat;
+}
+
+h3 {
+    background-color: rgb(4, 219, 219);
+    font-family: cursive;
+}
+
+.ímpar {
+    font-style: italic;
+}
